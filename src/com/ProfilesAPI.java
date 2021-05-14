@@ -77,7 +77,7 @@ public class ProfilesAPI extends HttpServlet {
 		 String output = profileObj.deleteProfile(paras.get("customerID").toString()); 
 		response.getWriter().write(output);
 	}
-	
+	//new comment
 	// Convert request parameters to a Map
 	private static Map getParasMap(HttpServletRequest request) 
 	{ 
